@@ -1,0 +1,23 @@
+{
+  "name": "appathonsite",
+  "version": "1.0.0",
+  "description": "The site for the GT Appathon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaxoncreed/AppathonSite.git"
+  },
+  "author": "Jackson Morgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaxoncreed/AppathonSite/issues"
+  },
+  "homepage": "https://github.com/jaxoncreed/AppathonSite#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

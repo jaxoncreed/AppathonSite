@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin:0;
+  padding:0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Montserrat;
+  background-color: #DFDFDF;
+}
+
+h1 {
+   z-index: 5;
+   color: #eeb211;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.main-title {
+  font-size: 300%;
+}
+
+p {
+  color: #FFF;
+  font-size: 18px;
+}
+
+a {
+  color: #00FFFF;
+}
+
+.button {
+  border: 3px solid #eeb211;
+  color: #eeb211;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: 0 2px 2px #000;
+  transition: all 0.25s ease;
+}
+.button:hover {
+  background-color: #eeb211;
+  color: #FFF;
+}
+
+.slide {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+  transform-style: inherit;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 32px;
+}
+.dark {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.title {
+  width: 50%;
+  padding: 5%;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+.header {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
+#title {
+  background-image: url("/images/IntroCover.jpg");
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#sponsorTitle {
+  position: relative;
+  min-height: 300px;
+  background-image: url("/images/AppathonImage.jpg");
+  background-position: center top;
+  background-size: cover;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+  transform: translateZ(-1px) scale(2);
+  margin-top: -26vh;
+}
+.sponsor-title-overlay {
+  position: relative;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.sponsor-options {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 32px;
+  flex-wrap: wrap;
+  margin-top:12vh;
+}
+
+.sponsor-option {
+  background-color: #FFF;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+  padding: 32px;
+  margin: 16px;
+}
+
+.sponsor-option h2 {
+  margin: -32px;
+  background-color: #eeb211;
+  color: #FFF;
+  margin-bottom: 0;
+  padding: 16px;
+}
+
+.sponsor-option p {
+  color: #000;
+
+}
