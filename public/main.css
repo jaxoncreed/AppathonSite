@@ -24,6 +24,10 @@ h1 {
    margin-bottom: 0;
 }
 
+h4 {
+  color: #eeb211;
+}
+
 .main-title {
   font-size: 300%;
 }
