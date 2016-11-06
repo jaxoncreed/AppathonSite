@@ -55,6 +55,19 @@ a {
   color: #FFF;
 }
 
+.facebookLink {
+  border: 3px solid #eeb211;
+  background-image: url("/images/facebook.png");
+  height: 40px;
+  width: 40px;
+  box-shadow: 0 2px 2px #000;
+  background-size: cover;
+  transition: all 0.25s ease;
+}
+.facebookLink:hover {
+  background-image: url("/images/facebookHover.png");
+}
+
 .slide {
   position: relative;
   min-height: 100vh;
@@ -76,6 +89,7 @@ a {
   align-items: center;
   flex-direction: column;
   padding: 32px;
+  position: relative;
 }
 .dark {
   background-color: rgba(0,0,0,0.5);
@@ -100,6 +114,27 @@ a {
   width: 600px;
   display: flex;
   justify-content: space-around;
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sponsors img {
+  margin-bottom: 20px;
+}
+.largeSponsor {
+  width: 200px;
+  height: 200px;
+}
+.midSponsor {
+  width: 150px;
+  height: 150px;
+}
+.smallSponsor {
+  width: 100px;
+  height: 100px;
 }
 
 #title {
